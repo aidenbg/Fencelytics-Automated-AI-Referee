@@ -1,0 +1,14 @@
+# yolo repo
+yolov5-v6.0/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.env
+
+# Virtual environments
+.venv
