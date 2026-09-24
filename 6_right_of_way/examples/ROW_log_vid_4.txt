@@ -1,0 +1,24 @@
+Fencelytics ROW State Machine Log
+Stage 1 (revised): continuous movement-driven ROW (locked in while the holder keeps advancing, released only after 0.4s of not advancing) + Extend/Lunge overlap tie-break (NEITHER only) + scoreboard verdict. Parry/riposte NOT modeled -- see script docstring.
+Video: video_005-00.00.24.280-00.00.27.910.mp4
+
+  t=  0.00s (frame    1)        NEUTRAL -> LEFT           LEFT advancing while RIGHT is not
+  t=  2.50s (frame  150)                                  Scoreboard: RIGHT (single light) -- LEFT held ROW at this moment -- LEFT's attack was SUCCESSFUL. Score is now LEFT 1 - 0 RIGHT
+  t=  2.70s (frame  162)        NEUTRAL -> NEITHER        both fencers advancing at once -- ROW is Neither
+  t=  2.84s (frame  170)        NEITHER -> RIGHT          RIGHT advancing while LEFT is not
+
+FINAL SCORE: LEFT 1 - 0 RIGHT
+
+BOUT ACTION LOG (per fencer -- movement, upper, lower, and every attack)
+
+=== LEFT FENCER ===
+  Movement:  0.00-0.02s Advancing  |  0.02-0.27s Idle  |  0.27-0.60s Retreating  |  0.64-0.87s Retreating  |  0.87-0.96s Idle  |  0.96-1.17s Advancing  |  1.26-1.83s Advancing  |  2.70-2.84s Advancing  |  2.84-2.92s Retreating  |  3.04-3.07s Advancing  |  3.07-3.10s Retreating  |  3.25-3.32s Retreating  |  3.36-3.62s Advancing  |  3.62-3.67s Idle
+  Upper:     0.40-0.45s Parry  |  0.87-0.92s Extend  |  0.92-0.99s Unextend  |  0.99-1.17s Extend  |  1.17-1.26s Unextend  |  1.54-1.63s Extend  |  1.63-1.73s Parry  |  1.73-1.80s Unextend  |  2.21-2.40s Extend  |  2.40-2.57s Unextend  |  2.70-2.78s Parry  |  2.78-2.80s Unextend  |  3.59-3.67s Extend
+  Lower:     (none)
+  Attacks:   (none)
+
+=== RIGHT FENCER ===
+  Movement:  1.17-2.16s Retreating  |  2.16-2.58s Advancing
+  Upper:     1.41-1.58s Extend  |  1.58-1.66s Unextend  |  1.66-2.21s Extend  |  2.21-2.26s Unextend
+  Lower:     (none)
+  Attacks:   (none)

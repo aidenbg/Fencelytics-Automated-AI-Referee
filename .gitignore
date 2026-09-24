@@ -1,14 +1,52 @@
-# yolo repo
-yolov5-v6.0/
-
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
-.env
+*.py[cod]
+*.so
 
 # Virtual environments
-.venv
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+
+# Secrets / private configuration
+*secret*
+*credentials*
+*token*
+*_key*
+ngrok_url.txt
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Large experiment outputs
+runs/
+wandb/
+mlruns/
+
+# OS / local development
+*.local
+
+# Private research material
+private/
+
+3_piste_segmentation/model/checkpoint_best_total.pth3_piste_segmentation/model/checkpoint_best_total.pth

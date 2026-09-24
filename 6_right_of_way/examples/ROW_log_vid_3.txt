@@ -1,0 +1,11 @@
+Fencelytics ROW State Machine Log
+Stage 1 (revised): continuous movement-driven ROW + Extend/Lunge overlap tie-break (NEITHER only) + scoreboard verdict. Parry/riposte and Recovery-based transfer NOT modeled -- see script docstring.
+Video: video_068-00.02.55.053-00.02.58.565.mp4
+
+  t=  0.07s (frame    3)        NEUTRAL -> RIGHT          RIGHT advancing while LEFT is not
+  t=  0.74s (frame   23)          RIGHT -> LEFT           RIGHT is no longer advancing while LEFT now is -- ROW transfers to LEFT
+  t=  1.62s (frame   49)           LEFT -> NEITHER        both fencers advancing at once -- ROW is Neither
+  t=  3.11s (frame   93)        NEITHER -> RIGHT          RIGHT advancing while LEFT is not
+  t=  3.31s (frame   99)                                  Scoreboard: RIGHT (single light) -- RIGHT held ROW at this moment -- RIGHT's attack was SUCCESSFUL. Score is now LEFT 0 - 1 RIGHT
+
+FINAL SCORE: LEFT 0 - 1 RIGHT

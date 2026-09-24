@@ -1,0 +1,30 @@
+Fencelytics ROW State Machine Log
+Stage 1 (revised): continuous movement-driven ROW (locked in while the holder keeps advancing, released only after 0.4s of not advancing) + Extend/Lunge overlap tie-break (NEITHER only) + scoreboard verdict. Parry/riposte NOT modeled -- see script docstring.
+Video: video_040-00.05.42.776-00.05.56.920.mp4
+
+  t=  0.00s (frame    1)        NEUTRAL -> LEFT           LEFT advancing while RIGHT is not
+  t=  1.31s (frame   40)           LEFT -> RIGHT          LEFT did not resume advancing within 0.4s -- ROW transfers to RIGHT
+  t=  3.72s (frame  112)                                  RIGHT attacked (Extend and Lunge simultaneous) -- ROW already clearly RIGHT from movement, no change
+  t=  4.06s (frame  122)                                  Scoreboard: RIGHT (single light) -- uncontested, no ROW adjudication needed -- RIGHT scores outright. Score is now LEFT 0 - 1 RIGHT
+  t=  4.89s (frame  147)        NEUTRAL -> LEFT           LEFT advancing while RIGHT is not
+  t=  8.18s (frame  245)                                  LEFT did not resume advancing within 0.4s, but the opponent isn't advancing either -- ROW stays with LEFT
+  t=  9.55s (frame  286)                                  LEFT did not resume advancing within 0.4s, but the opponent isn't advancing either -- ROW stays with LEFT
+  t= 12.50s (frame  374)                                  LEFT attacked (Extend and Lunge simultaneous) -- ROW already clearly LEFT from movement, no change
+  t= 12.64s (frame  378)                                  RIGHT attacked (Extend and Lunge simultaneous) -- ROW already clearly LEFT from movement, no change
+  t= 12.87s (frame  385)                                  Scoreboard: LEFT + RIGHT (both lights) -- LEFT held ROW at this moment -- LEFT's attack was SUCCESSFUL. Score is now LEFT 1 - 1 RIGHT
+
+FINAL SCORE: LEFT 1 - 1 RIGHT
+
+BOUT ACTION LOG (per fencer -- movement, upper, lower, and every attack)
+
+=== LEFT FENCER ===
+  Movement:  0.00-0.03s Advancing  |  0.03-0.17s Idle  |  0.17-0.44s Retreating  |  0.47-0.84s Advancing  |  0.84-0.94s Idle  |  0.94-4.29s Retreating  |  4.29-4.53s Idle  |  4.53-4.66s Retreating  |  4.66-4.89s Idle  |  4.89-7.47s Advancing  |  7.47-7.81s Idle  |  7.81-8.51s Retreating  |  8.51-8.68s Idle  |  8.68-9.18s Advancing  |  9.18-11.20s Idle  |  11.20-12.87s Advancing  |  12.87-12.97s Idle  |  12.97-14.15s Retreating
+  Upper:     1.84-3.42s Extend  |  12.50-12.84s Extend  |  12.84-13.01s Unextend  |  13.07-13.17s Extend  |  13.58-13.68s Extend
+  Lower:     12.47-12.74s Lunge  |  12.74-13.01s Recover
+  Attacks:   12.50s
+
+=== RIGHT FENCER ===
+  Movement:  0.44-4.19s Advancing  |  4.19-7.27s Retreating  |  7.27-7.44s Idle  |  7.44-8.11s Advancing  |  8.11-11.13s Idle  |  11.13-12.97s Advancing  |  12.97-13.07s Idle  |  13.07-14.15s Retreating
+  Upper:     2.08-2.15s Parry  |  3.32-3.65s Parry  |  3.72-3.92s Extend  |  3.92-4.09s Unextend  |  7.14-7.37s Parry  |  12.54-12.60s Parry  |  12.60-12.77s Extend  |  12.77-12.94s Unextend
+  Lower:     3.35-3.52s Lunge  |  3.69-3.99s Lunge  |  3.99-4.16s Recover  |  12.64-12.80s Lunge  |  12.91-13.11s Recover
+  Attacks:   3.72s  |  12.64s
