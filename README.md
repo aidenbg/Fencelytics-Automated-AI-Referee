@@ -8,7 +8,8 @@ The system combines fencing-specific object detection, human pose estimation, pi
 
 The following example shows the Fencelytics pipeline producing an automated right-of-way analysis from a fencing video.
 
-<video src="6_right_of_way/examples/ROW_vid_5.mp4" controls width="100%"></video>
+https://github.com/user-attachments/assets/3df6f82a-05d3-476d-a8a3-940bfd6d8950
+
 
 The output includes recognized fencing actions, movement states, right-of-way transitions, scoring events, and the running score.
 
