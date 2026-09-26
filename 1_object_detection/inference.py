@@ -29,7 +29,7 @@ import cv2
 import torch
 
 # Edit this to point at your trained weights. Overridable with --weights.
-MODEL_PATH = "/Users/aidenbg/Coding/FencingAI/Fencelytics_Public_Repo/1_object_detection/model/yolov7_v4.pt"
+MODEL_PATH = "best.pt"
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png"}
 VIDEO_EXTS = {".mp4", ".mov"}
