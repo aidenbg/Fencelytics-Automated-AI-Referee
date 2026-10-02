@@ -22,6 +22,10 @@ Pose landmarks are tracked across video frames to provide a continuous represent
 
 Using temporal pose information provides more stable action features than relying on a single frame.
 
+## Example
+
+https://github.com/user-attachments/assets/c5d8a94a-f1bf-40ae-a620-4f5358155ba4
+
 ## Limitations
 
 Pose estimation can become less reliable when fencers overlap, are partially occluded, move rapidly, or appear at difficult camera angles. These issues can affect downstream action recognition.
