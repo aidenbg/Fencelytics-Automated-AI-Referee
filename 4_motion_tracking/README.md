@@ -24,12 +24,22 @@ The estimated camera displacement is then projected onto the previously establis
 
 This produces a camera-compensated movement signal that more closely represents the fencer's actual movement along the piste.
 
+## Example
+
+https://github.com/user-attachments/assets/7150f8c4-c487-4294-a866-4f0b725ff914
+
+
 ## Output
 
 The example in this directory demonstrates the effect of camera-motion compensation by plotting movement for both fencers:
 
-* **Before compensation** — movement measured directly from the video.
-* **After compensation** — movement after estimated camera motion has been removed.
+Before compensation — movement measured directly from the video:
+<img width="1800" height="750" alt="before_vid_2" src="https://github.com/user-attachments/assets/4dc5248a-b61f-489a-bfa0-2f8174c0697a" />
+
+
+After compensation** — movement after estimated camera motion has been removed:
+<img width="1800" height="750" alt="after_vid_2" src="https://github.com/user-attachments/assets/36f3d68c-2289-427d-b722-3456aeb3a6ec" />
+
 
 These signals are subsequently used to derive movement features such as velocity and acceleration for downstream action recognition.
 
