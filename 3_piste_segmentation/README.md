@@ -22,6 +22,10 @@ This piste-relative position is subsequently used to calculate movement features
 
 These features are used by the action-recognition and right-of-way components of the pipeline.
 
+## Example
+
+https://github.com/user-attachments/assets/7cba372f-ae77-415e-bbed-7e6c9b06aa42
+
 ## Dataset
 
 The piste segmentation model was trained using 130 images from 13 fencing videos, with variation in camera orientation, lighting, and viewpoint.
