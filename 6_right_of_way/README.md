@@ -91,6 +91,12 @@ Example logs are provided in:
 examples/
 ```
 
+## Example
+
+Video:
+
+https://github.com/user-attachments/assets/f7f5cbb6-80d8-44df-abfa-02fa11c33f1f
+
 ## Limitations
 
 The current right-of-way system is a prototype and does not model every possible foil exchange.
