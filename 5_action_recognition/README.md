@@ -46,6 +46,13 @@ The lower-body model uses piste-relative position, velocity, acceleration, front
 
 Attack is subsequently represented by the combination of an **Extend** from the upper-body model and a **Lunge** from the lower-body model.
 
+## Example
+
+
+https://github.com/user-attachments/assets/530eec45-dcb4-464a-9c88-963d48edc0bc
+
+
+
 ## Temporal Context
 
 Rather than classifying each frame independently, Fencelytics evaluates features across temporal windows.
