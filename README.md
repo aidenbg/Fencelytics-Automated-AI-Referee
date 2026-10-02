@@ -29,3 +29,7 @@ This requires understanding multiple aspects of a bout simultaneously:
 * How the sequence of actions determines right-of-way
 
 Fencelytics explores whether these observations can be extracted from video and combined into an automated analysis pipeline.
+
+## Repository Status
+
+This repository is primarily provided as a research and reproducibility resource. The current package/dependency configuration was developed and tested in the author's environment and may not work without modification on other systems. Some experimental inference scripts are not currently maintained as a fully reproducible installation and are therefore not intended to represent a guaranteed out-of-the-box setup. The research data, methodology, models, and example outputs are provided to document and support the work described in the accompanying research.
