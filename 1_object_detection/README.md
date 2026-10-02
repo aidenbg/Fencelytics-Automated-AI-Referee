@@ -25,8 +25,12 @@ model/yolov7_v4.pt
 
 `inference.py` provides inference on individual images, videos, or folders of images.
 
-Example outputs are provided in:
+## Examples
 
-```text
-examples/
-```
+All the examples can be viewed in examples/, but I have placed one example video here:
+
+https://github.com/user-attachments/assets/c6ecf65c-c7df-4dc7-a6d7-91a3eb0ec5b4
+
+
+
+
